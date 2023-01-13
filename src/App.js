@@ -7,6 +7,7 @@ import Research from "./Components/Research/Research";
 import Project from "./Components/Project/Project";
 import Blog from "./Components/Blog/Blog";
 import Fact from "./Components/Fact/Fact";
+import Publication from "./Components/Publication/Publication";
 
 const App = () => {
     return (
@@ -17,6 +18,7 @@ const App = () => {
                 <Route path="/home" element={<Home/>}/>
                 <Route path="/cv" element={<Cv/>}/>
                 <Route path="/research" element={<Research/>}/>
+                <Route path="/publication" element={<Publication/>}/>
                 <Route path="/project" element={<Project/>}/>
                 <Route path="/blog" element={<Blog/>}/>
                 <Route path="/fact" element={<Fact/>}/>

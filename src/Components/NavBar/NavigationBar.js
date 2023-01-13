@@ -6,6 +6,7 @@ import BiotechIcon from '@mui/icons-material/Biotech';
 import TerminalIcon from '@mui/icons-material/Terminal';
 import DocumentScannerIcon from '@mui/icons-material/DocumentScanner';
 import PsychologyAltIcon from '@mui/icons-material/PsychologyAlt';
+import PrintIcon from '@mui/icons-material/Print';
 import {Link} from "react-router-dom";
 
 class NavigationBar extends Component {
@@ -38,6 +39,10 @@ class NavigationBar extends Component {
                                 <li className="nav-item" style={{display:"flex", alignItems:"center", margin: "2%"}}>
                                     <BiotechIcon className={classes.NavLi}/>
                                     <Link className="nav-link" to="/research">Research</Link>
+                                </li>
+                                <li className="nav-item" style={{display:"flex", alignItems:"center", margin: "2%"}}>
+                                    <PrintIcon className={classes.NavLi}/>
+                                    <Link className="nav-link" to="/publication">Publication</Link>
                                 </li>
                                 <li className="nav-item" style={{display:"flex", alignItems:"center", margin: "2%"}}>
                                     <TerminalIcon className={classes.NavLi}/>
