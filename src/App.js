@@ -1,11 +1,12 @@
-import './App.css';
+import React from 'react';
+import NavigationBar from "./Components/NavigationBar";
 
-function App() {
-  return (
-    <div className="App">
-      Hello world, this is Shiyu's personal website.
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <div>
+            <NavigationBar/>
+        </div>
+    );
+};
 
 export default App;
