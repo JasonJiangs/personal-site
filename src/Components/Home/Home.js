@@ -10,7 +10,7 @@ const Home = () => {
                 <div className="col-3">
                     <AboutMe/>
                 </div>
-                <div className="col-9" style={{backgroundColor: "gray"}}>
+                <div className="col-9">
                     <Brief/>
                 </div>
             </div>
