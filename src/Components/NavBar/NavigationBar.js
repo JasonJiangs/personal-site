@@ -19,12 +19,13 @@ class NavigationBar extends Component {
                                 aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
-                        <div className="collapse navbar-collapse" id="navbarColor01">
+                        <div className="collapse navbar-collapse" id="navbarColor03">
                             <ul className="navbar-nav me-auto">
                                 <li className="nav-item" style={{display:"flex", alignItems:"center", margin: "2%"}}>
                                     <HomeIcon className={classes.NavLi}/>
                                     <a className="nav-link active" href="/personal-site/home">
                                         Home
+                                        <span className="visually-hidden">(current)</span>
                                     </a>
                                 </li>
                                 <li className="nav-item" style={{display:"flex", alignItems:"center", margin: "2%"}}>

@@ -19,7 +19,6 @@ const View = () => {
 
     return (
         <div>
-            viewss
             {/*<div>*/}
             {/*    <script type='text/javascript'*/}
             {/*            id='clustrmaps'*/}
