@@ -1,4 +1,6 @@
 import React from 'react';
+import classes from "./AboutMe.module.css";
+import avatarImg from "../../../../Assets/image/avatar.jpg"
 import PinDropIcon from '@mui/icons-material/PinDrop';
 import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
 import EmailIcon from '@mui/icons-material/Email';
@@ -12,9 +14,9 @@ const AboutMe = () => {
         <div>
             <div className="card" style={{margin:"1%", marginTop:"5%"}}>
                 <div className="card-body">
-                    <div>
-                        <img src="https://jasonjiangs.github.io/images/profile.jpg" width="170"
-                             style={{margin: "0 auto", borderRadius: "35px", boxShadow: "10px 10px 5px #888888"}}/>
+                    <div >
+                        <img src={avatarImg} width="170" style={{
+                            margin: "0 auto", borderRadius: "35px", boxShadow: "5px 5px 5px #888888", borderStyle: "solid"}}/>
                     </div>
                     <br/>
                     <h4 className="card-title">Shiyu Jiang</h4>
