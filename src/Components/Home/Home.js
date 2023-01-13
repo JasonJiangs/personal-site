@@ -1,11 +1,19 @@
 import React from 'react';
-import View from "../View/View";
+import classes from "./Home.module.css";
+import AboutMe from "./Elements/AboutMe/AboutMe";
+import Brief from "./Elements/Brief/Brief";
 
 const Home = () => {
     return (
-        <div>
-            Home
-
+        <div className="text-center">
+            <div className="row">
+                <div className="col-3">
+                    <AboutMe/>
+                </div>
+                <div className="col-9" style={{backgroundColor: "gray"}}>
+                    <Brief/>
+                </div>
+            </div>
         </div>
     );
 };
