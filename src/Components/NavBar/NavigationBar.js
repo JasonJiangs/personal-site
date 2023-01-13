@@ -13,7 +13,7 @@ class NavigationBar extends Component {
             <div>
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
                     <div className="container-fluid">
-                        <a className="navbar-brand" href="/">Shiyu's Website</a>
+                        <a className="navbar-brand" href="/personal-site">Shiyu's Website</a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false"
                                 aria-label="Toggle navigation">
@@ -23,32 +23,32 @@ class NavigationBar extends Component {
                             <ul className="navbar-nav me-auto">
                                 <li className="nav-item" style={{display:"flex", alignItems:"center", margin: "2%"}}>
                                     <HomeIcon className={classes.NavLi}/>
-                                    <a className="nav-link active" href="/home">
+                                    <a className="nav-link active" href="/personal-site/home">
                                         Home
                                         <span className="visually-hidden">(current)</span>
                                     </a>
                                 </li>
                                 <li className="nav-item" style={{display:"flex", alignItems:"center", margin: "2%"}}>
                                     <FeedIcon className={classes.NavLi}/>
-                                    <a className="nav-link" href="/cv">
+                                    <a className="nav-link" href="/personal-site/cv">
                                         CV
                                     </a>
                                 </li>
                                 <li className="nav-item" style={{display:"flex", alignItems:"center", margin: "2%"}}>
                                     <BiotechIcon className={classes.NavLi}/>
-                                    <a className="nav-link" href="/research">Research</a>
+                                    <a className="nav-link" href="/personal-site/research">Research</a>
                                 </li>
                                 <li className="nav-item" style={{display:"flex", alignItems:"center", margin: "2%"}}>
                                     <TerminalIcon className={classes.NavLi}/>
-                                    <a className="nav-link" href="/project">Project</a>
+                                    <a className="nav-link" href="/personal-site/project">Project</a>
                                 </li>
                                 <li className="nav-item" style={{display:"flex", alignItems:"center", margin: "2%"}}>
                                     <DocumentScannerIcon className={classes.NavLi}/>
-                                    <a className="nav-link" href="/blog">Blog</a>
+                                    <a className="nav-link" href="/personal-site/blog">Blog</a>
                                 </li>
                                 <li className="nav-item" style={{display:"flex", alignItems:"center", margin: "2%"}}>
                                     <PsychologyAltIcon className={classes.NavLi}/>
-                                    <a className="nav-link" href="/fact">Fact</a>
+                                    <a className="nav-link" href="/personal-site/fact">Fact</a>
                                 </li>
                             </ul>
                             <form className="d-flex">
