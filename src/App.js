@@ -13,13 +13,13 @@ const App = () => {
         <div>
             <NavigationBar/>
             <Routes>
-                <Route path="personal-site" element={<Home/>}/>
-                <Route path="personal-site/home" element={<Home/>}/>
-                <Route path="personal-site/cv" element={<Cv/>}/>
-                <Route path="personal-site/research" element={<Research/>}/>
-                <Route path="personal-site/project" element={<Project/>}/>
-                <Route path="personal-site/blog" element={<Blog/>}/>
-                <Route path="personal-site/fact" element={<Fact/>}/>
+                <Route path="/" element={<Home/>}/>
+                <Route path="/home" element={<Home/>}/>
+                <Route path="/cv" element={<Cv/>}/>
+                <Route path="/research" element={<Research/>}/>
+                <Route path="/project" element={<Project/>}/>
+                <Route path="/blog" element={<Blog/>}/>
+                <Route path="/fact" element={<Fact/>}/>
             </Routes>
         </div>
     );
