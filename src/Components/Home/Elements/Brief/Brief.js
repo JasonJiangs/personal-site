@@ -5,8 +5,8 @@ const Brief = () => {
 
     return (
         <div>
-            <div className="list-group" style={{margin: "1%"}}>
-                <a href="#" className="list-group-item list-group-item-action flex-column align-items-start">
+            <div className="list-group">
+                <a className="list-group-item list-group-item-action flex-column align-items-start">
                     <div className="d-flex w-100 justify-content-between">
                         <h5 className="mb-1">About ME</h5>
                         <small className="text-muted"></small>
@@ -23,7 +23,7 @@ const Brief = () => {
                     </p>
                     <small className="text-muted"></small>
                 </a>
-                <a href="#" className="list-group-item list-group-item-action flex-column align-items-start">
+                <a className="list-group-item list-group-item-action flex-column align-items-start">
                     <div className="d-flex w-100 justify-content-between">
                         <h5 className="mb-1">Research Interest</h5>
                         <small className="text-muted"></small>
@@ -37,7 +37,7 @@ const Brief = () => {
                     </p>
                     <small className="text-muted"></small>
                 </a>
-                <a href="#" className="list-group-item list-group-item-action flex-column align-items-start">
+                <a className="list-group-item list-group-item-action flex-column align-items-start">
                     <div className="d-flex w-100 justify-content-between">
                         <h5 className="mb-1">Software Engineer Skill</h5>
                         <small className="text-muted"></small>
@@ -49,7 +49,7 @@ const Brief = () => {
                     </p>
                     <small className="text-muted"> </small>
                 </a>
-                <a href="#" className="list-group-item list-group-item-action flex-column align-items-start">
+                <a className="list-group-item list-group-item-action flex-column align-items-start">
                     <div className="d-flex w-100 justify-content-between">
                         <h5 className="mb-1">Fact</h5>
                         <small className="text-muted"></small>
