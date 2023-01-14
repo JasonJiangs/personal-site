@@ -45,9 +45,12 @@ const AboutMe = () => {
                     <br/>
                     <text>--Views--</text>
                     <br/>
-                    <a href='https://clustrmaps.com/site/1bsf3'  title='Visit tracker'>
-                        <img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=n&d=0jrG4ANmAJYOwb9_vESb8sYr0bwBhK8fH2NA-jxpKAo&co=3b4954'/>
-                    </a>
+                    <div>
+                        <a href='https://clustrmaps.com/site/1bsf3'  title='Visit tracker'>
+                            <img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=n&d=0jrG4ANmAJYOwb9_vESb8sYr0bwBhK8fH2NA-jxpKAo&co=3b4954'
+                                 style={{width:"60%"}}/>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
