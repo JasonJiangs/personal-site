@@ -12,10 +12,10 @@ import SchoolIcon from '@mui/icons-material/School';
 const AboutMe = () => {
     return (
         <div>
-            <div className="card" style={{margin:"1%", marginTop:"5%"}}>
+            <div className="card" style={{margin:"1%"}}>
                 <div className="card-body">
                     <div >
-                        <img src={avatarImg} width="170" style={{
+                        <img src={avatarImg} width="60%" style={{
                             margin: "0 auto", borderRadius: "35px", boxShadow: "5px 5px 5px #888888", borderStyle: "solid"}}/>
                     </div>
                     <br/>

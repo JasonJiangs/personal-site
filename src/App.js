@@ -12,8 +12,8 @@ import {Container} from "@mui/material";
 
 const App = () => {
     return (
-        <div>
-            <Container maxWidth="lg">
+        <div style={{width:"90%", marginLeft:"5%"}}>
+            {/*<Container maxWidth="lg">*/}
                 <NavigationBar/>
                 <Routes>
                     <Route path="/" element={<Home/>}/>
@@ -25,7 +25,7 @@ const App = () => {
                     <Route path="/blog" element={<Blog/>}/>
                     <Route path="/fact" element={<Fact/>}/>
                 </Routes>
-            </Container>
+            {/*</Container>*/}
         </div>
     );
 };

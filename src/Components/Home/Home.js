@@ -6,7 +6,7 @@ import Brief from "./Elements/Brief/Brief";
 const Home = () => {
     return (
         <div className="text-center">
-            <div className="row">
+            <div className="row" style={{marginTop:"2%"}}>
                 <div className="col-3">
                     <AboutMe/>
                 </div>
