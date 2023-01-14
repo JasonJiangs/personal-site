@@ -15,10 +15,9 @@ const AboutMe = () => {
             <div className="card" style={{margin:"1%"}}>
                 <div className="card-body">
                     <div >
-                        <img src={avatarImg} width="60%" style={{
+                        <img src={avatarImg} width="40%" style={{
                             margin: "0 auto", borderRadius: "35px", boxShadow: "5px 5px 5px #888888", borderStyle: "solid"}}/>
                     </div>
-                    <br/>
                     <h4 className="card-title">Shiyu Jiang</h4>
                     <h6 className="card-subtitle mb-2 text-muted">A passionate researcher and software developer</h6>
                     <p className="card-text">Greetings, welcome to my personal website.</p>
