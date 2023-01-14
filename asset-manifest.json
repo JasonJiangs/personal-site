@@ -1,16 +1,21 @@
 {
   "files": {
     "main.css": "/personal-site/static/css/main.9318768b.css",
-    "main.js": "/personal-site/static/js/main.0c352e4f.js",
+    "main.js": "/personal-site/static/js/main.9de5133f.js",
     "static/js/787.3ba5e41c.chunk.js": "/personal-site/static/js/787.3ba5e41c.chunk.js",
     "static/media/avatar.jpg": "/personal-site/static/media/avatar.309aaa5820b5aa29405c.jpg",
+    "static/media/hnoxpred.png": "/personal-site/static/media/hnoxpred.0300c3bc82cecfc37842.png",
+    "static/media/CV Shiyu Jiang.pdf": "/personal-site/static/media/CV Shiyu Jiang.bd8b42d1642abdcead9f.pdf",
+    "static/media/dashboard1.png": "/personal-site/static/media/dashboard1.45cb9dcb280b4e411601.png",
+    "static/media/VI1.png": "/personal-site/static/media/VI1.b81622cf715924108283.png",
+    "static/media/DeblurYOLO.png": "/personal-site/static/media/DeblurYOLO.5d69b016a743b857118c.png",
     "index.html": "/personal-site/index.html",
     "main.9318768b.css.map": "/personal-site/static/css/main.9318768b.css.map",
-    "main.0c352e4f.js.map": "/personal-site/static/js/main.0c352e4f.js.map",
+    "main.9de5133f.js.map": "/personal-site/static/js/main.9de5133f.js.map",
     "787.3ba5e41c.chunk.js.map": "/personal-site/static/js/787.3ba5e41c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9318768b.css",
-    "static/js/main.0c352e4f.js"
+    "static/js/main.9de5133f.js"
   ]
 }
