@@ -45,11 +45,12 @@ const Research = () => {
                                 &nbsp;&nbsp;&nbsp;
                                 <SourceIcon/>
                                 <a href="https://academic.oup.com/bioinformatics/article-abstract/38/19/4643/6673135">Paper</a>
-                                &nbsp;&nbsp;
-                                <OpenInBrowserIcon/>
-                                <a href="https://www.hnoxpred.com/">Tool</a>&nbsp;
+                            </CardActions>
+                            <CardActions>
+                                <OpenInBrowserIcon/>&nbsp;
+                                <a href="https://www.hnoxpred.com/">HNOXPred Link</a>&nbsp;
                                 <UnfoldMoreIcon/>
-                                <Link to="">More</Link>
+                                <Link to="">Learn More</Link>
                             </CardActions>
                         </Card>
                     </div>
@@ -78,11 +79,12 @@ const Research = () => {
                                 &nbsp;&nbsp;&nbsp;
                                 <SourceIcon/>
                                 <a href="">Paper</a>
-                                &nbsp;&nbsp;
-                                <OpenInBrowserIcon/>
-                                <a href="https://www.hnoxpred.com/">Dashboard</a>&nbsp;
+                            </CardActions>
+                            <CardActions style={{maxWidth:"100%"}}>
+                                <OpenInBrowserIcon/>&nbsp;
+                                <a href="https://www.hnoxpred.com/">Dashboard Sample</a>&nbsp;
                                 <UnfoldMoreIcon/>
-                                <Link to="">More</Link>
+                                <Link to="">Learn More</Link>
                             </CardActions>
                         </Card>
                     </div>
@@ -138,14 +140,10 @@ const Research = () => {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                {/*<CodeIcon/>&nbsp;*/}
-                                {/*<a href="">Code</a>*/}
-                                {/*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/}
-                                <SourceIcon/>
-                                <a href="https://ieeexplore.ieee.org/document/9534352">Paper</a>
-                                &nbsp;&nbsp;
+                                <SourceIcon/>&nbsp;
+                                <a href="https://ieeexplore.ieee.org/document/9534352">Paper</a>&nbsp;
                                 <UnfoldMoreIcon/>
-                                <a href="">More</a>
+                                <a href="">Learn More</a>
                             </CardActions>
                         </Card>
                     </div>
@@ -197,14 +195,13 @@ const Research = () => {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <CodeIcon/>&nbsp;
-                                <a href="">Code</a>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <SourceIcon/>
-                                <a href="">Paper</a>
-                                &nbsp;&nbsp;
+                                {/*<CodeIcon/>&nbsp;*/}
+                                {/*<a href="">Code</a>*/}
+                                {/*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/}
+                                <SourceIcon/>&nbsp;
+                                <a href="">Paper</a>&nbsp;
                                 <UnfoldMoreIcon/>
-                                <a href="">More</a>
+                                <a href="">Learn More</a>
                             </CardActions>
                         </Card>
                     </div>
