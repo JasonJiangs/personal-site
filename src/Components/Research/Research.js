@@ -10,8 +10,10 @@ import UnfoldMoreIcon from '@mui/icons-material/UnfoldMore';
 import hnoxpredImg from '../../Assets/image/hnoxpred.png'
 import dashboard1 from '../../Assets/image/dashboard1.png'
 import OpenInBrowserIcon from '@mui/icons-material/OpenInBrowser';
-import VI1 from '../../Assets/image/VI1.png'
-import DeblurYOLO from '../../Assets/image/DeblurYOLO.png'
+import VI1 from '../../Assets/image/VI1.png';
+import DeblurYOLO from '../../Assets/image/DeblurYOLO.png';
+import HCIPDF from '../../Assets/Files/HCI helps with Visual Impaired.pdf'
+import SlideshowIcon from '@mui/icons-material/Slideshow';
 import {Link} from "react-router-dom";
 
 const Research = () => {
@@ -195,11 +197,12 @@ const Research = () => {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                {/*<CodeIcon/>&nbsp;*/}
-                                {/*<a href="">Code</a>*/}
-                                {/*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/}
                                 <SourceIcon/>&nbsp;
                                 <a href="">Paper</a>&nbsp;
+                                <SlideshowIcon/>
+                                <a href={HCIPDF}>Powerpoint</a>
+                            </CardActions>
+                            <CardActions>
                                 <UnfoldMoreIcon/>
                                 <a href="">Learn More</a>
                             </CardActions>
