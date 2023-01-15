@@ -19,14 +19,15 @@ import {Link} from "react-router-dom";
 const Research = () => {
     return (
         <div>
-            <div className="container text-center">
+            {/*<div className="container text-center">*/}
+            <div className="text-center">
                 <div className="row">
                     <div className="col">
-                        <Card sx={{ maxWidth: "99%", marginTop: "3%", marginBottom: "3%" }}>
+                        <Card sx={{ marginTop: "3%", marginBottom: "3%" }}>
                             <CardMedia
                                 component="img"
                                 alt="img"
-                                height="200"
+                                height="300"
                                 image={hnoxpredImg}
                             />
                             <CardContent>
@@ -52,7 +53,7 @@ const Research = () => {
                                 <OpenInBrowserIcon/>&nbsp;
                                 <a href="https://www.hnoxpred.com/">HNOXPred Link</a>&nbsp;
                                 <UnfoldMoreIcon/>
-                                <Link to="">Learn More</Link>
+                                <Link to="/hnoxpreddetail">Learn More</Link>
                             </CardActions>
                         </Card>
                     </div>
@@ -61,7 +62,7 @@ const Research = () => {
                             <CardMedia
                                 component="img"
                                 alt="img"
-                                height="200"
+                                height="300"
                                 image={dashboard1}
                             />
                             <CardContent>
@@ -84,40 +85,40 @@ const Research = () => {
                             </CardActions>
                             <CardActions style={{maxWidth:"100%"}}>
                                 <OpenInBrowserIcon/>&nbsp;
-                                <a href="https://www.hnoxpred.com/">Dashboard Sample</a>&nbsp;
+                                <Link to="/dashboarddetail">Dashboard Sample</Link>&nbsp;
                                 <UnfoldMoreIcon/>
-                                <Link to="">Learn More</Link>
+                                <Link to="/simulatordatail">Learn More</Link>
                             </CardActions>
                         </Card>
                     </div>
-                    <div className="col">
-                        <Card sx={{ maxWidth: "99%", marginTop: "3%", marginBottom: "3%" }}>
-                            <CardMedia
-                                component="img"
-                                alt="img"
-                                height="200"
-                                image="/static/images/cards/contemplative-reptile.jpg"
-                            />
-                            <CardContent>
-                                <Typography gutterBottom variant="text" component="div">
-                                    Zang Lab
-                                </Typography>
-                                <Typography variant="text" color="text.secondary">
-                                    Content
-                                </Typography>
-                            </CardContent>
-                            <CardActions>
-                                <CodeIcon/>&nbsp;
-                                <a href="">Code</a>
-                                &nbsp;&nbsp;&nbsp;
-                                <SourceIcon/>
-                                <a href="">Paper</a>
-                                &nbsp;&nbsp;
-                                <UnfoldMoreIcon/>
-                                <Link to="">More</Link>
-                            </CardActions>
-                        </Card>
-                    </div>
+                    {/*<div className="col">*/}
+                    {/*    <Card sx={{ maxWidth: "99%", marginTop: "3%", marginBottom: "3%" }}>*/}
+                    {/*        <CardMedia*/}
+                    {/*            component="img"*/}
+                    {/*            alt="img"*/}
+                    {/*            height="200"*/}
+                    {/*            image="/static/images/cards/contemplative-reptile.jpg"*/}
+                    {/*        />*/}
+                    {/*        <CardContent>*/}
+                    {/*            <Typography gutterBottom variant="text" component="div">*/}
+                    {/*                Zang Lab*/}
+                    {/*            </Typography>*/}
+                    {/*            <Typography variant="text" color="text.secondary">*/}
+                    {/*                Content*/}
+                    {/*            </Typography>*/}
+                    {/*        </CardContent>*/}
+                    {/*        <CardActions>*/}
+                    {/*            <CodeIcon/>&nbsp;*/}
+                    {/*            <a href="">Code</a>*/}
+                    {/*            &nbsp;&nbsp;&nbsp;*/}
+                    {/*            <SourceIcon/>*/}
+                    {/*            <a href="">Paper</a>*/}
+                    {/*            &nbsp;&nbsp;*/}
+                    {/*            <UnfoldMoreIcon/>*/}
+                    {/*            <Link to="">More</Link>*/}
+                    {/*        </CardActions>*/}
+                    {/*    </Card>*/}
+                    {/*</div>*/}
                 </div>
                 <div className="row">
                     <div className="col">
@@ -145,38 +146,38 @@ const Research = () => {
                                 <SourceIcon/>&nbsp;
                                 <a href="https://ieeexplore.ieee.org/document/9534352">Paper</a>&nbsp;
                                 <UnfoldMoreIcon/>
-                                <a href="">Learn More</a>
+                                <Link to="/cnndetail">Learn More</Link>
                             </CardActions>
                         </Card>
                     </div>
-                    <div className="col">
-                        <Card sx={{ maxWidth: "99%", marginTop: "3%", marginBottom: "3%" }}>
-                            <CardMedia
-                                component="img"
-                                alt="img"
-                                height="200"
-                                image=""
-                            />
-                            <CardContent>
-                                <Typography gutterBottom variant="text" component="div">
-                                    Quantitative Trading Algorithm
-                                </Typography>
-                                <Typography variant="text" color="text.secondary">
-                                    content
-                                </Typography>
-                            </CardContent>
-                            <CardActions>
-                                <CodeIcon/>&nbsp;
-                                <a href="">Code</a>
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <SourceIcon/>
-                                <a href="">Paper</a>
-                                &nbsp;&nbsp;
-                                <UnfoldMoreIcon/>
-                                <a href="">More</a>
-                            </CardActions>
-                        </Card>
-                    </div>
+                    {/*<div className="col">*/}
+                    {/*    <Card sx={{ maxWidth: "99%", marginTop: "3%", marginBottom: "3%" }}>*/}
+                    {/*        <CardMedia*/}
+                    {/*            component="img"*/}
+                    {/*            alt="img"*/}
+                    {/*            height="200"*/}
+                    {/*            image=""*/}
+                    {/*        />*/}
+                    {/*        <CardContent>*/}
+                    {/*            <Typography gutterBottom variant="text" component="div">*/}
+                    {/*                Quantitative Trading Algorithm*/}
+                    {/*            </Typography>*/}
+                    {/*            <Typography variant="text" color="text.secondary">*/}
+                    {/*                content*/}
+                    {/*            </Typography>*/}
+                    {/*        </CardContent>*/}
+                    {/*        <CardActions>*/}
+                    {/*            <CodeIcon/>&nbsp;*/}
+                    {/*            <a href="">Code</a>*/}
+                    {/*            /!*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*!/*/}
+                    {/*            /!*<SourceIcon/>*!/*/}
+                    {/*            /!*<a href="">Paper</a>*!/*/}
+                    {/*            &nbsp;&nbsp;*/}
+                    {/*            <UnfoldMoreIcon/>*/}
+                    {/*            <Link to="/casiadetail">Learn More</Link>*/}
+                    {/*        </CardActions>*/}
+                    {/*    </Card>*/}
+                    {/*</div>*/}
                     <div className="col">
                         <Card sx={{ maxWidth: "99%", marginTop: "3%", marginBottom: "3%" }}>
                             <CardMedia
@@ -204,7 +205,7 @@ const Research = () => {
                             </CardActions>
                             <CardActions>
                                 <UnfoldMoreIcon/>
-                                <a href="">Learn More</a>
+                                <Link to="/hcidetail">Learn More</Link>
                             </CardActions>
                         </Card>
                     </div>
