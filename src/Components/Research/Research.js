@@ -91,34 +91,67 @@ const Research = () => {
                             </CardActions>
                         </Card>
                     </div>
-                    {/*<div className="col">*/}
-                    {/*    <Card sx={{ maxWidth: "99%", marginTop: "3%", marginBottom: "3%" }}>*/}
-                    {/*        <CardMedia*/}
-                    {/*            component="img"*/}
-                    {/*            alt="img"*/}
-                    {/*            height="200"*/}
-                    {/*            image="/static/images/cards/contemplative-reptile.jpg"*/}
-                    {/*        />*/}
-                    {/*        <CardContent>*/}
-                    {/*            <Typography gutterBottom variant="text" component="div">*/}
-                    {/*                Zang Lab*/}
-                    {/*            </Typography>*/}
-                    {/*            <Typography variant="text" color="text.secondary">*/}
-                    {/*                Content*/}
-                    {/*            </Typography>*/}
-                    {/*        </CardContent>*/}
-                    {/*        <CardActions>*/}
-                    {/*            <CodeIcon/>&nbsp;*/}
-                    {/*            <a href="">Code</a>*/}
-                    {/*            &nbsp;&nbsp;&nbsp;*/}
-                    {/*            <SourceIcon/>*/}
-                    {/*            <a href="">Paper</a>*/}
-                    {/*            &nbsp;&nbsp;*/}
-                    {/*            <UnfoldMoreIcon/>*/}
-                    {/*            <Link to="">More</Link>*/}
-                    {/*        </CardActions>*/}
-                    {/*    </Card>*/}
-                    {/*</div>*/}
+                </div>
+                <div className="row">
+                    <div className="col">
+                        <Card sx={{ maxWidth: "99%", marginTop: "3%", marginBottom: "3%" }}>
+                            {/*<CardMedia*/}
+                            {/*    component="img"*/}
+                            {/*    alt="img"*/}
+                            {/*    height="300"*/}
+                            {/*    image="/static/images/cards/contemplative-reptile.jpg"*/}
+                            {/*/>*/}
+                            <CardContent>
+                                <Typography gutterBottom variant="text" component="div">
+                                    Bioinformatics work (Ongoing)
+                                </Typography>
+                                <Typography variant="text" color="text.secondary">
+                                    Content
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                {/*<CodeIcon/>&nbsp;*/}
+                                {/*<a href="">Code</a>*/}
+                                {/*&nbsp;&nbsp;&nbsp;*/}
+                                {/*<SourceIcon/>*/}
+                                {/*<a href="">Paper</a>*/}
+                                {/*&nbsp;&nbsp;*/}
+                                <UnfoldMoreIcon/>
+                                <Link to="">Learn More</Link>
+                            </CardActions>
+                        </Card>
+                    </div>
+                    <div className="col">
+                        <Card sx={{ maxWidth: "99%", marginTop: "3%", marginBottom: "3%" }}>
+                            {/*<CardMedia*/}
+                            {/*    component="img"*/}
+                            {/*    alt="img"*/}
+                            {/*    height="300"*/}
+                            {/*    image="/static/images/cards/contemplative-reptile.jpg"*/}
+                            {/*/>*/}
+                            <CardContent>
+                                <Typography gutterBottom variant="text" component="div">
+                                    High-frequency Trading Algorithm
+                                </Typography>
+                                <Typography variant="text" color="text.secondary">
+                                    This paper studies the application of the popular deep learning technology in
+                                    futures price prediction in recent years, respectively verifies the capabilities of
+                                    LSTM and Transformer models in futures price prediction, and obtains their results
+                                    in the Chinese futures market.
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                {/*<CodeIcon/>&nbsp;*/}
+                                {/*<a href="">Code</a>*/}
+                                {/*&nbsp;&nbsp;&nbsp;*/}
+                                {/*<SourceIcon/>*/}
+                                {/*<a href="">Paper</a>*/}
+                                {/*&nbsp;&nbsp;*/}
+                                <UnfoldMoreIcon/>
+                                <Link to="">Learn More</Link>
+                            </CardActions>
+                        </Card>
+                    </div>
                 </div>
                 <div className="row">
                     <div className="col">
@@ -126,7 +159,7 @@ const Research = () => {
                             <CardMedia
                                 component="img"
                                 alt="img"
-                                height="200"
+                                height="300"
                                 image={DeblurYOLO}
                             />
                             <CardContent>
@@ -150,40 +183,12 @@ const Research = () => {
                             </CardActions>
                         </Card>
                     </div>
-                    {/*<div className="col">*/}
-                    {/*    <Card sx={{ maxWidth: "99%", marginTop: "3%", marginBottom: "3%" }}>*/}
-                    {/*        <CardMedia*/}
-                    {/*            component="img"*/}
-                    {/*            alt="img"*/}
-                    {/*            height="200"*/}
-                    {/*            image=""*/}
-                    {/*        />*/}
-                    {/*        <CardContent>*/}
-                    {/*            <Typography gutterBottom variant="text" component="div">*/}
-                    {/*                Quantitative Trading Algorithm*/}
-                    {/*            </Typography>*/}
-                    {/*            <Typography variant="text" color="text.secondary">*/}
-                    {/*                content*/}
-                    {/*            </Typography>*/}
-                    {/*        </CardContent>*/}
-                    {/*        <CardActions>*/}
-                    {/*            <CodeIcon/>&nbsp;*/}
-                    {/*            <a href="">Code</a>*/}
-                    {/*            /!*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*!/*/}
-                    {/*            /!*<SourceIcon/>*!/*/}
-                    {/*            /!*<a href="">Paper</a>*!/*/}
-                    {/*            &nbsp;&nbsp;*/}
-                    {/*            <UnfoldMoreIcon/>*/}
-                    {/*            <Link to="/casiadetail">Learn More</Link>*/}
-                    {/*        </CardActions>*/}
-                    {/*    </Card>*/}
-                    {/*</div>*/}
                     <div className="col">
                         <Card sx={{ maxWidth: "99%", marginTop: "3%", marginBottom: "3%" }}>
                             <CardMedia
                                 component="img"
                                 alt="img"
-                                height="200"
+                                height="300"
                                 image={VI1}
                             />
                             <CardContent>
