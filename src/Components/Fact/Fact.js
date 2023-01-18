@@ -2,6 +2,12 @@ import React from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import JHUSoccer1 from '../../Assets/image/jhusoccer1.jpg';
+import bro1 from '../../Assets/image/bro1.jpg'
+import bro2 from '../../Assets/image/bro2.jpg'
+import bro3 from '../../Assets/image/bro3.jpg'
+import lasoccer from '../../Assets/image/lasoccer.jpg'
+import universal from '../../Assets/image/universal.jpg'
+import wkusoccer1 from '../../Assets/image/wkusoccer1.jpg'
 
 
 const Fact = () => {
@@ -12,31 +18,39 @@ const Fact = () => {
             rows: 2,
             cols: 2,
         },
-        // {
-        //     img: '',
-        //     title: 'Burger',
-        // },
-        // {
-        //     img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
-        //     title: 'Camera',
-        // },
-        // {
-        //     img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
-        //     title: 'Coffee',
-        //     cols: 2,
-        // },
-        // {
-        //     img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
-        //     title: 'Hats',
-        //     cols: 2,
-        // },
-        // {
-        //     img: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62',
-        //     title: 'Honey',
-        //     author: '@arwinneil',
-        //     rows: 2,
-        //     cols: 2,
-        // },
+        {
+            img: lasoccer,
+            title: 'lasoccer',
+            rows: 2,
+            cols: 2,
+        },
+        {
+            img: wkusoccer1,
+            title: 'wkusoccer1',
+            rows: 2,
+            cols: 2,
+        },
+        {
+            img: universal,
+            title: 'universal',
+            rows: 2,
+            cols: 2,
+        },
+        {
+            img: bro1,
+            title: 'bro1',
+            rows: 1.5,
+        },
+        {
+            img: bro2,
+            title: 'bro2',
+            rows: 1.5,
+        },
+        {
+            img: bro3,
+            title: 'bro3',
+            rows: 1.5,
+        },
         // {
         //     img: 'https://images.unsplash.com/photo-1516802273409-68526ee1bdd6',
         //     title: 'Basketball',
@@ -80,7 +94,7 @@ const Fact = () => {
         <div>
             <div style={{margin:"1%"}}>
                 <ImageList
-                    sx={{ width: "100%", height: 300 }}
+                    sx={{ width: "100%", height: '450px' }}
                     variant="quilted"
                     cols={8}
                     rowHeight={121}
