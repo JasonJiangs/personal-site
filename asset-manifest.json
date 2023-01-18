@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/personal-site/static/css/main.9318768b.css",
-    "main.js": "/personal-site/static/js/main.0f3f91c1.js",
+    "main.js": "/personal-site/static/js/main.b529f69d.js",
     "static/js/787.3ba5e41c.chunk.js": "/personal-site/static/js/787.3ba5e41c.chunk.js",
     "static/media/HCI helps with Visual Impaired.pdf": "/personal-site/static/media/HCI helps with Visual Impaired.015125bf64a2470ba957.pdf",
     "static/media/avatar.jpg": "/personal-site/static/media/avatar.309aaa5820b5aa29405c.jpg",
+    "static/media/casia1.png": "/personal-site/static/media/casia1.5de213fa743020c65917.png",
     "static/media/hnoxpred.png": "/personal-site/static/media/hnoxpred.0300c3bc82cecfc37842.png",
     "static/media/universal.jpg": "/personal-site/static/media/universal.fe49880ee3e5426b782e.jpg",
     "static/media/wkusoccer1.jpg": "/personal-site/static/media/wkusoccer1.3240317580c4d982bf00.jpg",
@@ -19,11 +20,11 @@
     "static/media/DeblurYOLO.png": "/personal-site/static/media/DeblurYOLO.5d69b016a743b857118c.png",
     "index.html": "/personal-site/index.html",
     "main.9318768b.css.map": "/personal-site/static/css/main.9318768b.css.map",
-    "main.0f3f91c1.js.map": "/personal-site/static/js/main.0f3f91c1.js.map",
+    "main.b529f69d.js.map": "/personal-site/static/js/main.b529f69d.js.map",
     "787.3ba5e41c.chunk.js.map": "/personal-site/static/js/787.3ba5e41c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9318768b.css",
-    "static/js/main.0f3f91c1.js"
+    "static/js/main.b529f69d.js"
   ]
 }
