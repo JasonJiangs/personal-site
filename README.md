@@ -46,3 +46,6 @@ Run and install gh-pages under the project directory.
 
 Deploy project on GitHub page. Update page by running it everytime.
 
+### Visit sample
+
+https://jasonjiangs.github.io/personal-site/
