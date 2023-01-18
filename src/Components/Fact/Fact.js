@@ -39,17 +39,20 @@ const Fact = () => {
         {
             img: bro1,
             title: 'bro1',
-            rows: 1.5,
+            rows: 2,
+            cols: 2,
         },
         {
             img: bro2,
             title: 'bro2',
-            rows: 1.5,
+            rows: 2,
+            cols: 2,
         },
         {
             img: bro3,
             title: 'bro3',
-            rows: 1.5,
+            rows: 2,
+            cols: 2,
         },
         // {
         //     img: 'https://images.unsplash.com/photo-1516802273409-68526ee1bdd6',
@@ -95,14 +98,14 @@ const Fact = () => {
             <div style={{margin:"1%"}}>
                 <ImageList
                     sx={{ width: "100%", height: '450px' }}
-                    variant="quilted"
+                    variant="woven"
                     cols={8}
-                    rowHeight={121}
+                    rowHeight={100}
                 >
                     {itemData.map((item) => (
                         <ImageListItem key={item.img} cols={item.cols || 1} rows={item.rows || 1}>
                             <img
-                                {...srcset(item.img, 121, item.rows, item.cols)}
+                                {...srcset(item.img, 100, item.rows, item.cols)}
                                 alt={item.title}
                                 loading="lazy"
                             />
@@ -110,7 +113,7 @@ const Fact = () => {
                     ))}
                 </ImageList>
             </div>
-            <h3 style={{textAlign:"center"}}>To be developed</h3>
+            <h3 style={{textAlign:"center"}}>Some facts about me</h3>
         </div>
     );
 };

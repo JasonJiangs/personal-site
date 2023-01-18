@@ -13,6 +13,7 @@ import OpenInBrowserIcon from '@mui/icons-material/OpenInBrowser';
 import VI1 from '../../Assets/image/VI1.png';
 import DeblurYOLO from '../../Assets/image/DeblurYOLO.png';
 import HCIPDF from '../../Assets/Files/HCI helps with Visual Impaired.pdf'
+import casia1 from '../../Assets/image/casia1.png'
 import SlideshowIcon from '@mui/icons-material/Slideshow';
 import {Link} from "react-router-dom";
 
@@ -94,13 +95,13 @@ const Research = () => {
                 </div>
                 <div className="row">
                     <div className="col">
-                        <Card sx={{ maxWidth: "99%", marginTop: "3%", marginBottom: "3%" }}>
-                            {/*<CardMedia*/}
-                            {/*    component="img"*/}
-                            {/*    alt="img"*/}
-                            {/*    height="300"*/}
-                            {/*    image="/static/images/cards/contemplative-reptile.jpg"*/}
-                            {/*/>*/}
+                        <Card sx={{ marginTop: "3%", marginBottom: "3%" }}>
+                            <CardMedia
+                                component="img"
+                                alt="img"
+                                height="300"
+                                image=""
+                            />
                             <CardContent>
                                 <Typography gutterBottom variant="text" component="div">
                                     Bioinformatics work (Ongoing)
@@ -109,13 +110,13 @@ const Research = () => {
                                     Content
                                 </Typography>
                             </CardContent>
-                            <CardActions>
-                                {/*<CodeIcon/>&nbsp;*/}
-                                {/*<a href="">Code</a>*/}
-                                {/*&nbsp;&nbsp;&nbsp;*/}
-                                {/*<SourceIcon/>*/}
-                                {/*<a href="">Paper</a>*/}
-                                {/*&nbsp;&nbsp;*/}
+                            <CardActions style={{maxWidth:"100%"}}>
+                                <CodeIcon/>&nbsp;
+                                <a href="">Code</a>
+                                &nbsp;&nbsp;&nbsp;
+                                <SourceIcon/>
+                                <a href="">Paper</a>
+                                &nbsp;&nbsp;
                                 <UnfoldMoreIcon/>
                                 <Link to="">Learn More</Link>
                             </CardActions>
@@ -123,12 +124,12 @@ const Research = () => {
                     </div>
                     <div className="col">
                         <Card sx={{ maxWidth: "99%", marginTop: "3%", marginBottom: "3%" }}>
-                            {/*<CardMedia*/}
-                            {/*    component="img"*/}
-                            {/*    alt="img"*/}
-                            {/*    height="300"*/}
-                            {/*    image="/static/images/cards/contemplative-reptile.jpg"*/}
-                            {/*/>*/}
+                            <CardMedia
+                                component="img"
+                                alt="img"
+                                height="400"
+                                image={casia1}
+                            />
                             <CardContent>
                                 <Typography gutterBottom variant="text" component="div">
                                     High-frequency Trading Algorithm
@@ -140,13 +141,13 @@ const Research = () => {
                                     in the Chinese futures market.
                                 </Typography>
                             </CardContent>
-                            <CardActions>
-                                {/*<CodeIcon/>&nbsp;*/}
-                                {/*<a href="">Code</a>*/}
-                                {/*&nbsp;&nbsp;&nbsp;*/}
-                                {/*<SourceIcon/>*/}
-                                {/*<a href="">Paper</a>*/}
-                                {/*&nbsp;&nbsp;*/}
+                            <CardActions style={{maxWidth:"100%"}}>
+                                <CodeIcon/>&nbsp;
+                                <a href="">Code</a>
+                                &nbsp;&nbsp;&nbsp;
+                                <SourceIcon/>
+                                <a href="">Paper</a>
+                                &nbsp;&nbsp;
                                 <UnfoldMoreIcon/>
                                 <Link to="">Learn More</Link>
                             </CardActions>
@@ -202,7 +203,7 @@ const Research = () => {
                                     assist teachers in class with introduction and explaining mathematical concepts and questions.
                                 </Typography>
                             </CardContent>
-                            <CardActions>
+                            <CardActions style={{maxWidth:"100%"}}>
                                 <SourceIcon/>&nbsp;
                                 <a href="">Paper</a>&nbsp;
                                 <SlideshowIcon/>
