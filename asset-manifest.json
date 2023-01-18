@@ -1,23 +1,29 @@
 {
   "files": {
     "main.css": "/personal-site/static/css/main.9318768b.css",
-    "main.js": "/personal-site/static/js/main.1ab2431d.js",
+    "main.js": "/personal-site/static/js/main.0f3f91c1.js",
     "static/js/787.3ba5e41c.chunk.js": "/personal-site/static/js/787.3ba5e41c.chunk.js",
     "static/media/HCI helps with Visual Impaired.pdf": "/personal-site/static/media/HCI helps with Visual Impaired.015125bf64a2470ba957.pdf",
     "static/media/avatar.jpg": "/personal-site/static/media/avatar.309aaa5820b5aa29405c.jpg",
     "static/media/hnoxpred.png": "/personal-site/static/media/hnoxpred.0300c3bc82cecfc37842.png",
+    "static/media/universal.jpg": "/personal-site/static/media/universal.fe49880ee3e5426b782e.jpg",
+    "static/media/wkusoccer1.jpg": "/personal-site/static/media/wkusoccer1.3240317580c4d982bf00.jpg",
     "static/media/CV Shiyu Jiang.pdf": "/personal-site/static/media/CV Shiyu Jiang.bd8b42d1642abdcead9f.pdf",
+    "static/media/bro3.jpg": "/personal-site/static/media/bro3.6cb5b71e2038544d6d74.jpg",
     "static/media/dashboard1.png": "/personal-site/static/media/dashboard1.45cb9dcb280b4e411601.png",
     "static/media/jhusoccer1.jpg": "/personal-site/static/media/jhusoccer1.a649201efe9b1b823d0f.jpg",
+    "static/media/bro2.jpg": "/personal-site/static/media/bro2.87890fae1554f12ccb70.jpg",
+    "static/media/lasoccer.jpg": "/personal-site/static/media/lasoccer.6f17bcf735aa93dab3c7.jpg",
+    "static/media/bro1.jpg": "/personal-site/static/media/bro1.3cded844c8ccf9e2e08a.jpg",
     "static/media/VI1.png": "/personal-site/static/media/VI1.b81622cf715924108283.png",
     "static/media/DeblurYOLO.png": "/personal-site/static/media/DeblurYOLO.5d69b016a743b857118c.png",
     "index.html": "/personal-site/index.html",
     "main.9318768b.css.map": "/personal-site/static/css/main.9318768b.css.map",
-    "main.1ab2431d.js.map": "/personal-site/static/js/main.1ab2431d.js.map",
+    "main.0f3f91c1.js.map": "/personal-site/static/js/main.0f3f91c1.js.map",
     "787.3ba5e41c.chunk.js.map": "/personal-site/static/js/787.3ba5e41c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9318768b.css",
-    "static/js/main.1ab2431d.js"
+    "static/js/main.0f3f91c1.js"
   ]
 }
