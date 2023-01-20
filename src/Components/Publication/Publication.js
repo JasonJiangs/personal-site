@@ -18,8 +18,10 @@ const Publication = () => {
                     <h2 >Under Review</h2>
                     <p className="col-12">[1] Ye, H., Lv, J., Zhan, Y., Xue, Z., Li, T., <b>Jiang, S.</b>, Huang, M., Dong, L., Ren, G., Lei, Q., Fang, W., & Xie, H. (2023). Phase Behavior and
                         Co-localization of Ovalbumin-Lysozyme Complexes.</p>
-                    <p className="col-12">[2] Xxx, xxx, <b>Jiang, S.</b>, Jin, L., & Shoaib, M. AI-LearnMath: An Artificial Intelligence-Based Interactive Learning Platform to
-                        Assist Visually Impaired Children in Learning Mathematics. <i>In 25th International Conference on Human-Computer Interaction
+                    <p className="col-12">[2] Shoaib, M., <b>Jiang, S.</b> Jin, L., Fitzpatrick, D. & Pitt, L. (2023).
+                        An Artificial Intelligence-Based Interactive Learning Platform to
+                        Assist Visually Impaired Children in Learning Mathematics.
+                        <i>In 25th International Conference on Human-Computer Interaction
                         (HCII)</i>. Springer, Cham.</p>
                     {/*<p className="col-12">Pub 3</p>*/}
                     {/*<p className="col-12">Pub 3</p>*/}
