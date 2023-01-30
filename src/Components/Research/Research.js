@@ -9,6 +9,7 @@ import SourceIcon from '@mui/icons-material/Source';
 import UnfoldMoreIcon from '@mui/icons-material/UnfoldMore';
 import hnoxpredImg from '../../Assets/image/hnoxpred.png'
 import dashboard1 from '../../Assets/image/dashboard1.png'
+import dashboard2 from '../../Assets/image/dashboard2.png'
 import OpenInBrowserIcon from '@mui/icons-material/OpenInBrowser';
 import VI1 from '../../Assets/image/VI1.png';
 import DeblurYOLO from '../../Assets/image/DeblurYOLO.png';
@@ -64,7 +65,7 @@ const Research = () => {
                                 component="img"
                                 alt="img"
                                 height="300"
-                                image={dashboard1}
+                                image={dashboard2}
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="text" component="div">
